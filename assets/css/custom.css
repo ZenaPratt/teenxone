@@ -1,0 +1,118 @@
+/*Bootstrap rule Fixes*/
+.hero-unit{
+  margin-bottom: 0px;
+  background-color: #BBC8E7 ;
+  color:#222D46;
+  border-radius: 0px;
+  padding: 20px;
+}
+body{
+  color: #041438;
+}
+a{
+  color:#17306A;
+}
+/*Application Rules*/
+#site-content{
+  margin-bottom: 100px;
+}
+  /*Main content*/
+.color-item{
+  height: 100px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.primary-1 { background-color: #17306A }
+.primary-2 { background-color: #222D46 }
+.primary-3 { background-color: #041438 }
+.primary-4 { background-color: #7F9EE7 }
+.primary-5 { background-color: #BBC8E7 }
+
+
+
+  /*Sidebar*/
+#side-bar{
+  background: #BBC8E7;
+  padding: 20px 3px;
+  border: 1px solid #7F9EE7;
+  border-top: none;
+  box-shadow: inset 0px -1px 5px -3px #17306A; 
+  border-radius: 0px 0px 3px 3px;
+}
+#side-bar h1{
+  text-shadow: 2px 2px 0px #CCC;
+}
+p.desc{
+  padding: 0 5px 10px 0;
+}
+.subnav-item{
+  background-color: #EEE;
+  border-radius: 5px;
+  margin: 0px auto 10px auto !important;
+  float: none !important;
+  width: 200px;
+  padding: 10px 5px;
+  box-shadow: inset 0px 0px 3px 0px #041438, 0px 0px 5px -2px #7F9EE7;
+}
+.subnav-item:hover{box-shadow: inset 0px 0px 3px 0px #041438, 0px 0px 10px -1px #CCC;}
+.subnav-item:active{box-shadow: inset 0px 0px 5px 0px #041438, 0px 0px 10px -1px #CCC;}
+.subnav-item-link{
+  text-decoration: none!important;
+  font-size: 20px;
+  text-shadow: -1px -1px #DDD, 1px 1px #999;
+}
+
+#item-table{
+  margin-top: 25px;
+}
+
+#item-new, #item-edit{
+  display: none;
+}
+
+button#edit-hidden-submit{
+ display: none;
+}
+/*#sub-food1, #sub-food2, #sub-food3{
+  background: url('../img/logos.png') no-repeat #FFF;
+ }
+#sub-food1{ background-position: -0px -77px; width: 82px; height: 62px;}
+#sub-food2{ background-position: -331px -230px; width: 100px; height: 53px;}
+#sub-food3{ background-position: -456px -184px; width: 100px; height: 55px;}
+#sub-food1:hover, #sub-food2:hover, #sub-food3:hover{
+   box-shadow: inset 0px 0px 3px 0px #041438, 0px 0px 10px -1px #CCC;
+}
+#sub-food1:active, #sub-food2:active, #sub-food3:active{
+   box-shadow: inset 0px 0px 5px 0px #041438, 0px 0px 10px -1px #CCC;
+}*/
+
+/*Product styles*/
+#product-name, #service-name{
+  color: #222D46;
+  padding: 10px;
+  margin-top: 20px;
+}
+#product-description img, #service-description img{
+  float: right;
+  margin-left: 10px;
+  height: 300px;
+  width: 300px;
+  box-shadow: 2px 5px 10px 0px #666;
+  border-radius: 3px;
+  border: 1px solid #666;
+  padding: 3px;
+}
+
+/*Footer*/
+.footer {
+  padding: 20px 0;
+}
+
+
+/*Remove right border in mobile*/
+@media (max-width: 767px) {
+  #side-bar{
+    border-right: none;
+  }
+}
